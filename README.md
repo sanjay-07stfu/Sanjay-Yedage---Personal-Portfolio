@@ -114,7 +114,7 @@ To customize this portfolio for your own use:
 **Sanjay Yedage**
 - Email: yedagesanjay8@gmail.com
 - GitHub: [@sanjay-07stfu](https://github.com/sanjay-07stfu)
-- LinkedIn: [Sanjay Yedage](https://linkedin.com/in/sanjay-yedage)
+- LinkedIn: [Sanjay Yedage](https://www.linkedin.com/in/sanjay-yedage-9a216934b/)
 
 ---
 
