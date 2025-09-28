@@ -31,6 +31,11 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 - JavaScript
 - AI Basics
 - Gaming
+- c
+- c++
+- figma
+- canva
+- fast API
 
 ### Featured Projects
 - Crop Disease Detection (AI/ML)
@@ -40,7 +45,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ### Contact
 - Email: yedagesanjay8@gmail.com
 - GitHub: @sanjay-07stfu
-- LinkedIn profile
+- LinkedIn profile:https://www.linkedin.com/in/sanjay-yedage-9a216934b/
 - Location: Mumbai, India
 
 ## 🛠️ Technologies Used
