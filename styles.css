@@ -54,7 +54,7 @@ body {
 /* Fallback styles to ensure content is visible */
 body:not([data-theme]) {
     background-color: #ffffff;
-    color: #1f2937;
+    color: #54a0ba;
 }
 
 /* Ensure all sections are visible */
