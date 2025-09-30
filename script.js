@@ -12,7 +12,7 @@ document.documentElement.setAttribute('data-theme', 'light');
 updateThemeIcon();
 
 function toggleTheme() {
-    currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    currentTheme = currentTheme === 'light' ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', currentTheme);
     localStorage.setItem('theme', currentTheme);
     updateThemeIcon();
