@@ -3,9 +3,9 @@ const navToggle = document.getElementById('nav-toggle');
 const navMenu = document.getElementById('nav-menu');
 const themeToggle = document.getElementById('theme-toggle');
 const downloadResume = document.getElementById('download-resume');
-
+                       
 // Theme Management
-let currentTheme = localStorage.getItem('theme') || 'light';
+let currentTheme = localStorage.getItem('theme') || 'dark';
 
 // Initialize theme - ensure light theme is default
 document.documentElement.setAttribute('data-theme', 'light');
@@ -179,16 +179,6 @@ function setupContactForm() {
     });
 }
 
-// Download resume functionality
-function setupDownloadResume() {
-    if (downloadResume) {
-        downloadResume.addEventListener('click', (e) => {
-            e.preventDefault();
-            // You can add actual resume download logic here
-            alert('Resume download will be available soon! In the meantime, feel free to contact me at yedagesanjay8@gmail.com');
-        });
-    }
-}
 
 // Navbar background change on scroll
 function handleNavbarScroll() {
