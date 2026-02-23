@@ -5,336 +5,248 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanjay Yedage - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span>Sanjay Yedage</span>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <div class="theme-toggle" id="theme-toggle">
-                <i class="fas fa-moon"></i>
-            </div>
-        </div>
-    </nav>
+<body data-theme="acid">
+    <main class="page" id="home">
+        <section class="poster-frame">
+            <div class="poster">
+                <nav class="poster-nav">
+                    <a class="icon-link" href="#about">
+                        <span class="icon">
+                            <svg viewBox="0 0 64 64" aria-hidden="true">
+                                <path d="M8 28h20l4 6h8l4-6h12" />
+                                <circle cx="20" cy="36" r="10" />
+                                <circle cx="44" cy="36" r="10" />
+                                <path d="M22 45c2 6 18 6 20 0" />
+                            </svg>
+                        </span>
+                        <span>about</span>
+                    </a>
+                    <a class="icon-link" href="#projects">
+                        <span class="icon">
+                            <svg viewBox="0 0 64 64" aria-hidden="true">
+                                <path d="M12 16h40l4 32H8z" />
+                                <path d="M20 16c0-6 4-10 12-10s12 4 12 10" />
+                                <path d="M20 32l6-8m6 8l6-8m6 8" />
+                            </svg>
+                        </span>
+                        <span>work</span>
+                    </a>
+                    <a class="icon-link" href="#skills">
+                        <span class="icon">
+                            <svg viewBox="0 0 64 64" aria-hidden="true">
+                                <path d="M32 6c12 0 22 10 22 22 0 8-4 14-10 20-2 2-4 6-4 10H24c0-4-2-8-4-10C14 42 10 36 10 28 10 16 20 6 32 6z" />
+                                <path d="M20 28h24" />
+                                <path d="M24 38h16" />
+                            </svg>
+                        </span>
+                        <span>archive</span>
+                    </a>
+                    <a class="icon-link" href="#contact">
+                        <span class="icon">
+                            <svg viewBox="0 0 64 64" aria-hidden="true">
+                                <rect x="10" y="16" width="44" height="30" rx="4" />
+                                <path d="M12 20l20 16 20-16" />
+                                <path d="M24 52h16" />
+                            </svg>
+                        </span>
+                        <span>thoughts</span>
+                    </a>
+                    <button class="icon-link mode-toggle" id="theme-toggle" type="button">
+                        <span class="icon">
+                            <svg viewBox="0 0 64 64" aria-hidden="true">
+                                <rect x="16" y="10" width="32" height="44" rx="6" />
+                                <circle cx="32" cy="32" r="8" />
+                                <path d="M22 18h20" />
+                            </svg>
+                        </span>
+                        <span>mode</span>
+                    </button>
+                </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    Hi, I'm Sanjay Yedage <span class="wave">👋</span>
-                </h1>
-                <p class="hero-subtitle">
-                    Computer Engineering Student | Python Developer | AI Enthusiast | Full-Stack Web Developer.
-                </p>
-                <p class="hero-description">
-                     A passionate Ai/Ml Engineer || FullStack Web Developer. 
-                    Currently pursuing Diploma in Computer Engineering at Vidyalankar Polytechnic.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Contact Me</a>
-                    <a href="Resume.jpeg" class="btn btn-secondary" id="download-resume">Download Resume</a>
-                 
+                <div class="hero">
+                    <div class="hero-title">
+                        <span class="hero-name">SANJAY</span>
+                        <span class="hero-name hero-name-wide">YEDAGE</span>
+                    </div>
+                    <div class="hero-subtitle">
+                        <span>ENGINEER FOR THE WEB</span>
+                        <span class="subtitle-bar"></span>
+                    </div>
+                    <p class="hero-copy">
+                        Computer Engineering student, Python developer, AI enthusiast, and full-stack web developer
+                        building useful, human-friendly products.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="stamp" href="#projects">SEE WORK</a>
+                        <a class="stamp" href="Resume.jpeg">RESUME</a>
+                    </div>
                 </div>
+
+                <a class="email-doodle" href="mailto:yedagesanjay8@gmail.com">
+                    <span class="icon">
+                        <svg viewBox="0 0 64 64" aria-hidden="true">
+                            <path d="M8 32l48-20-16 44-8-14-12-10z" />
+                            <path d="M32 42l24-30" />
+                        </svg>
+                    </span>
+                    <span>email</span>
+                </a>
+
+                <div class="powered">powered by filter coffee (not a sponsor)</div>
             </div>
-    
-            <div class ="hero-image ">
-        
-                    
-                    <img weidth="300px" height="300px" src="11.jpg" alt="Sanjay Yedage" style="border-radius:50%; padding-bottom:10px"></i>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
+    <section id="about" class="panel">
+        <div class="panel-inner">
+            <h2>ABOUT ME</h2>
+            <div class="panel-grid">
+                <div>
                     <p>
-                        Hello! I’m Sanjay Yedage, a passionate and curious Computer Engineering diploma student at Vidyalankar Polytechnic. 
-                        I enjoy exploring the world of programming and technology, with a special interest in Python development, artificial intelligence, and full-stack web development. 
+                        Hello! I am Sanjay Yedage, a curious Computer Engineering diploma student at
+                        Vidyalankar Polytechnic. I explore Python development, artificial intelligence,
+                        and full-stack web development.
                     </p>
                     <p>
-                        When I'm not coding, you can find me gaming, playing cricket, or diving deep 
-                        into the latest AI research. I believe in continuous learning and staying 
-                        updated with the rapidly evolving tech landscape.
+                        When I am not coding, I am gaming, playing cricket, or diving deep into the
+                        latest AI research. I believe in continuous learning and practical building.
                     </p>
-                    <div class="about-stats">
+                    <div class="stats">
                         <div class="stat">
-                            <h3>3+</h3>
-                            <p>Years Learning</p>
+                            <span class="stat-num">3+</span>
+                            <span class="stat-label">Years Learning</span>
                         </div>
                         <div class="stat">
-                            <h3>5+</h3>
-                            <p>Technologies</p>
+                            <span class="stat-num">5+</span>
+                            <span class="stat-label">Technologies</span>
                         </div>
                         <div class="stat">
-                            <h3>3+</h3>
-                            <p>Projects</p>
+                            <span class="stat-num">3+</span>
+                            <span class="stat-label">Projects</span>
                         </div>
                     </div>
                 </div>
-                <div class="about-image">
-                    <div class="profile-photo">
-                        <img height="310px" width="400px" src="09.jpeg" alt="Sanjay Yedage">
-                    </div>
+                <div class="panel-photo">
+                    <img src="09.jpeg" alt="Sanjay Yedage">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-python"></i>
-                    </div>
-                    <h3>Python</h3>
-                    <p>Data structures, algorithms, and AI/ML basics</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-java"></i>
-                    </div>
-                    <h3>Java</h3>
-                    <p>Object-oriented programming and application development</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-html5"></i>
-                    </div>
-                    <h3>HTML/CSS</h3>
-                    <p>Responsive web design and modern layouts</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-js-square"></i>
-                    </div>
-                    <h3>JavaScript</h3>
-                    <p>Interactive web applications and DOM manipulation</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>AI Basics</h3>
-                    <p>Machine learning fundamentals and neural networks</p>
-                </div>
-                
-                 <div class="skill-card">
-                <div class="skill-icon">
-                <i class="fas fa-code"></i>
-               </div>
-      <h3>C/C++</h3>
-      <p>Core programming concepts, OOP, and efficient algorithms</p>
-    </div>
-    
-    <div class="skill-card">
-      <div class="skill-icon">
-        <i class="fab fa-github"></i>
-      </div>
-      <h3>Git & GitHub</h3>
-      <p>Version control, collaboration, and open-source contributions</p>
-    </div>
-    
-    <div class="skill-card">
-      <div class="skill-icon">
-        <i class="fas fa-database"></i>
-      </div>
-      <h3>Databases</h3>
-      <p>SQL fundamentals and database design</p>
-    </div>
-         </div>
-
-          
+    <section id="skills" class="panel">
+        <div class="panel-inner">
+            <h2>SKILLS & TOOLS</h2>
+            <div class="chip-grid">
+                <span class="chip">Python</span>
+                <span class="chip">Java</span>
+                <span class="chip">HTML/CSS</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">AI Basics</span>
+                <span class="chip">C/C++</span>
+                <span class="chip">Git & GitHub</span>
+                <span class="chip">Databases</span>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                     <img width="702" height="200" src="02.webp" alt="">
-                    
-                    </div>
-                    <div class="project-content">
+    <section id="projects" class="panel">
+        <div class="panel-inner">
+            <h2>FEATURED PROJECTS</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <img src="02.webp" alt="Crop Disease Detection preview">
+                    <div class="project-body">
                         <h3>Crop Disease Detection</h3>
-                        <p>
-                            AI-powered application that identifies plant diseases using computer vision 
-                            and machine learning techniques. Built with Python and TensorFlow.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">TensorFlow</span>
-                            <span class="tech-tag">OpenCV</span>
+                        <p>AI app that identifies plant diseases using computer vision and ML.</p>
+                        <div class="tag-row">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://github.com/sanjay-07stfu/crop-disease-detection.git" class="project-link">
-                                <i class="fab fa-github"></i> View Code
-                            </a>
+                        <a class="project-link" href="https://github.com/sanjay-07stfu/crop-disease-detection.git">View Code</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="03.webp" alt="Amazon Clone preview">
+                    <div class="project-body">
+                        <h3>Amazon Clone</h3>
+                        <p>Front-end clone using HTML, CSS, and JavaScript for layout practice.</p>
+                        <div class="tag-row">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
                         </div>
+                        <a class="project-link" href="https://github.com/sanjay-07stfu/Amazon-clone-project.git">View Code</a>
                     </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img width="500" height="200" src="03.webp" alt="Amazon Clone Preview">
-                        
-                    </div>
-                    <div class="project-content">
-                        <h3>Amazon clone project</h3>
-                        <p>
-                            A front-end Amazon Clone built using HTML, CSS, and JavaScript. This project replicates Amazon's homepage layout, product listing pages for learning purposes..
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/sanjay-07stfu/Amazon-clone-project.git" class="project-link">
-                                <i class="fab fa-github"></i> View Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img width="500" height="200" src="05.webp" alt="VoiceBot-AI">
-                    </div>
-                    <div class="project-content">
+                </article>
+                <article class="project-card">
+                    <img src="05.webp" alt="VoiceBot-AI preview">
+                    <div class="project-body">
                         <h3>VoiceBot-AI</h3>
-                        <p>
-                            Python project using speech recognition, text-to-speech, maybe AI models
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">TensorFlow</span>
-                            <span class="tech-tag">Flask</span>
-                            <span class="tech-tag">Numpy</span>
+                        <p>Speech recognition and text-to-speech assistant with Python.</p>
+                        <div class="tag-row">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Numpy</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://github.com/sanjay-07stfu/VoiceBot-AI.git" class="project-link">
-                                <i class="fab fa-github"></i> View Code
-                            </a>
-                        </div>
+                        <a class="project-link" href="https://github.com/sanjay-07stfu/VoiceBot-AI.git">View Code</a>
                     </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img width="700" height="200" src="06.jpeg" alt="">
-                    </div>
-                    <div class="project-content">
+                </article>
+                <article class="project-card">
+                    <img src="06.jpeg" alt="Guess The Number preview">
+                    <div class="project-body">
                         <h3>Guess The Number</h3>
-                        <p>
-                            A simple interactive console game built in Python where the program randomly selects a number and the player has to guess it.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            
+                        <p>Interactive Python console game with randomized guessing logic.</p>
+                        <div class="tag-row">
+                            <span>Python</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://github.com/sanjay-07stfu/guess-the-number-project.py.git" class="project-link">
-                                <i class="fab fa-github"></i> View Code
-                            </a>
-                        </div>
+                        <a class="project-link" href="https://github.com/sanjay-07stfu/guess-the-number-project.py.git">View Code</a>
                     </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <img width="700" height="200" src="04.jpeg" alt="">
-                    </div>
-                    <div class="project-content">
+                </article>
+                <article class="project-card">
+                    <img src="04.jpeg" alt="Portfolio Website preview">
+                    <div class="project-body">
                         <h3>Portfolio Website</h3>
-                        <p>
-                            This responsive portfolio website built with pure HTML, CSS, and JavaScript, 
-                            featuring modern design principles and smooth animations.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
+                        <p>Responsive portfolio built with HTML, CSS, and JavaScript.</p>
+                        <div class="tag-row">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://github.com/sanjay-07stfu/Sanjay-Yedage---Personal-Portfolio.git" class="project-link">
-                                <i class="fab fa-github"></i> View Code
-                            </a>
-                        </div>
+                        <a class="project-link" href="https://github.com/sanjay-07stfu/Sanjay-Yedage---Personal-Portfolio.git">View Code</a>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect!</h3>
+    <section id="contact" class="panel">
+        <div class="panel-inner">
+            <h2>GET IN TOUCH</h2>
+            <div class="contact-grid">
+                <div>
                     <p>
-                        I'm always interested in new opportunities and collaborations. 
-                        Whether you have a project in mind or just want to chat about technology, 
-                        feel free to reach out!
+                        I am always interested in new opportunities and collaborations. If you have a
+                        project in mind or want to chat about technology, reach out.
                     </p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:yedagesanjay8@gmail.com">yedagesanjay8@gmail.com</a>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-graduation-cap"></i>
-                            <span>Vidyalankar Polytechnic</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Mumbai, India</span>
-                        </div>
+                    <div class="contact-list">
+                        <a href="mailto:yedagesanjay8@gmail.com">yedagesanjay8@gmail.com</a>
+                        <span>Vidyalankar Polytechnic</span>
+                        <span>Mumbai, India</span>
                     </div>
                 </div>
-                <div class="social-links">
-                    <h3>Follow Me</h3>
-                    <div class="social-icons">
-                        <a href="https://github.com/sanjay-07stfu" class="social-link" target="_blank">
-                            <i class="fab fa-github"></i>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/sanjay-yedage-9a216934b/" class="social-link" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yedagesanjay8@gmail.com" class="social-link">
-                            <i class="fas fa-envelope"></i>
-                            <span>Email</span>
-                        </a>
-                    </div>
+                <div class="contact-links">
+                    <a href="https://github.com/sanjay-07stfu" target="_blank" rel="noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/sanjay-yedage-9a216934b/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yedagesanjay8@gmail.com" target="_blank" rel="noreferrer">Email</a>
                 </div>
             </div>
         </div>
@@ -342,10 +254,8 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Sanjay Yedage. All rights reserved.</p>
-            <p>Built with ❤️ using HTML, CSS & JavaScript</p>
-        </div>
+        <p>&copy; 2025 Sanjay Yedage. All rights reserved.</p>
+        <p>Built with HTML, CSS, and JavaScript.</p>
     </footer>
 
     <script src="script.js"></script>
