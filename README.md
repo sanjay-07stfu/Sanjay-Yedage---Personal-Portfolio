@@ -1,3 +1,30 @@
+# Professional Portfolio (React + Tailwind + Framer Motion)
+
+Scaffolded Vite React project with Tailwind CSS and Framer Motion animations. Designed for a clean, dark, high-end developer portfolio.
+
+Quick start
+
+1. Install dependencies
+
+```bash
+npm install
+```
+
+2. Dev server
+
+```bash
+npm run dev
+```
+
+3. Build
+
+```bash
+npm run build
+```
+
+Notes
+- Replace placeholder content in `src/components` with your real projects, copy and update assets.
+- This scaffold uses Tailwind; adjust `tailwind.config.js` to extend theme and colors.
 
 # Sanjay Yedage - Personal Portfolio
 
