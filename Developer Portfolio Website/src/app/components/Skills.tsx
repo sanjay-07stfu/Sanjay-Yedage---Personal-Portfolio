@@ -41,7 +41,11 @@ export function Skills() {
       color: "from-orange-500 to-yellow-500",
       skills: portfolioData.skills["Tools & Platforms"],
     },
-  ];
+    {
+      title: "Mobile Development",
+      icon: Smartphone,
+      color: "from-green-500 to-emerald-500",
+      skills: [
         "iOS",
         "Android",
         "Expo",
@@ -273,7 +277,6 @@ export function Skills() {
                           whileHover={{
                             scale: 1.15,
                           }}
-                          transition={{ duration: 0.3 }}
                         >
                           {skill}
                         </motion.span>

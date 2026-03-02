@@ -471,7 +471,6 @@ export function About() {
                           scale: 1.15,
                           backgroundColor: "rgba(168, 85, 247, 0.2)",
                         }}
-                        transition={{ duration: 0.3 }}
                       >
                         <motion.span
                           className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-blue-500/20"
